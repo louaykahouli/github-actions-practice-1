@@ -16,8 +16,7 @@ Create a workflow with **3 simple jobs** that demonstrate core concepts:
 3. **List current directory**:
    ```bash
    ls -la
-   ```
-
+   `
 ### Job 2: Check System (`system-job`)
 **Purpose:** Practice multi-line commands and basic system operations
 **Steps:**

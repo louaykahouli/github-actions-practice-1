@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: System Info
-        run: echo "=== System Info ==="
-            echo "Operating System: $(uname -s)"
-            echo "Current User: $(whoami)"
+        run: echo "=== System Info ===",
+            echo "Operating System: $(uname -s)",
+            echo "Current User: $(whoami)",
             echo "Working Directory: $(pwd)",
       - name: Show Disk Usage
         run: echo "This is a test file" > test.txt
