@@ -3,7 +3,7 @@ on: [push]  # Trigger on every push
 
 jobs:
   ## your jobs here
-  hello-jobs:
+  hello-job:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
